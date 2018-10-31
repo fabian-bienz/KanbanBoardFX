@@ -40,47 +40,23 @@
             <TextField fx:id="newTask" layoutX="180.0" layoutY="72.0" prefHeight="27.0" prefWidth="195.0" text="Add your task here ..." />
             <Button onAction="#addTask" defaultButton="true" layoutX="393.0" layoutY="72.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="57.0" text="Add" textAlignment="CENTER" />
             <Text layoutX="72.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TO DO ..." />
-            <VBox layoutX="7.0" layoutY="139.0" prefHeight="279.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: silver;">
+            <VBox fx:id="tbd" layoutX="7.0" layoutY="139.0" prefHeight="279.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: silver;">
                <children>
-                  <TextField text="Task 1" />
-                  <TextField text="Task 2" />
-                  <TextField text="Task 3" />
-                  <TextField text="." />
-                  <TextField text="." />
-                  <TextField text="." />
-                  <TextField text="." />
-                  <TextField text="." />
-                  <TextField text="." />
-                  <TextField text="." />
-               </children></VBox>
+
+               </children>
+            </VBox>
             <Text layoutX="277.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IN PROGRESS .." />
-            <VBox layoutX="430.0" layoutY="139.0" prefHeight="279.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: silver;">
+            <VBox fx:id="done" layoutX="430.0" layoutY="139.0" prefHeight="279.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: silver;">
                <children>
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-               </children></VBox>
+
+               </children>
+            </VBox>
             <Text layoutX="503.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DONE!" />
-            <VBox layoutX="226.0" layoutY="139.0" prefHeight="279.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: silver;">
+            <VBox fx:id="inProgress" layoutX="226.0" layoutY="139.0" prefHeight="279.0" prefWidth="187.0" style="-fx-border-color: black; -fx-background-color: silver;">
                <children>
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-                  <TextField />
-               </children></VBox>
+
+               </children>
+            </VBox>
          </children>
       </AnchorPane>
    </center>
